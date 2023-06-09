@@ -33,7 +33,7 @@ return(c(ABR, m))
 }
 
 
-abr.test <- test.vc.ABR.func(vc.iter.strt = vc.test[1], vector.control.stp = vc.test[2], vector.control.efficacy = 0.7,
+abr.test  <- test.vc.ABR.func(vc.iter.strt = vc.test[1], vector.control.stp = vc.test[2], vector.control.efficacy = 0.7,
                              i = 366, ABR = 20000)
 
 abr.test2 <- test.vc.ABR.func(vc.iter.strt = vc.test[1], vector.control.stp = vc.test[2], vector.control.efficacy = 0.7,
