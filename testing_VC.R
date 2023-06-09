@@ -26,7 +26,7 @@ test.vc.ABR.func <- function(vc.iter.strt, vector.control.stp, vector.control.ef
 }
 
 
-m = ABR * ((1/104) / 0.63) # update m
+m =  ABR * ((1/104) / 0.63) # update m
 
 return(c(ABR, m))
 
