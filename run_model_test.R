@@ -28,7 +28,7 @@ treat.strt  = round(80 / (DT.in )); treat.stp = treat.strt + round(treat.len / (
 timesteps = treat.stp + round(1 / (DT.in )) #final duration (3 is number of years after treatment stops to continue running model)
 timesteps = treat.stp + round(10 / (DT.in )) #final duration (3 is number of years after treatment stops to continue running model)
 
-gv.trt = 1
+gv.trt  = 1
 trt.int = 1 #treatment interval (years, 0.5 gives biannual)
 
 
